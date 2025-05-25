@@ -22,7 +22,7 @@ body {
 }
 header {
   text-align: center;
-  padding: 1rem 0; /* reduced for tighter spacing */
+  padding: 0.5rem 0; /* reduced top and bottom padding to bring logo closer */
 }
 header img {
   height: 160px;
