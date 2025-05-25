@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spamurai &mdash; AI-Powered Email Protection</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #d35400;
+      --dark: #2c3e50;
+      --light: #fdfaf6;
+      --font: 'Inter', sans-serif;
+    }
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body { font-family:var(--font); color:var(--dark); background:var(--light); }
+    .container { max-width:900px; margin:0 auto; padding:1rem; }
+    header { text-align:center; padding:2rem 0; }
+    header img { height:60px; }
+    .hero { text-align:center; padding:4rem 1rem; }
+    .hero h1 { font-size:3rem; line-height:1.2; margin-bottom:1rem; }
+    .hero p { font-size:1.125rem; margin-bottom:2rem; }
+    .form-inline { display:flex; justify-content:center; gap:0.5rem; flex-wrap:wrap; }
+    .form-inline input[type="email"] { padding:0.75rem 1rem; border:1px solid #ccc; border-radius:4px; flex:1; min-width:200px; }
+    .form-inline button { background:var(--primary); color:#fff; border:none; padding:0.75rem 1.5rem; border-radius:4px; font-weight:600; cursor:pointer; transition:filter .2s; }
+    .form-inline button:hover { filter:brightness(0.9); }
+    .features { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:2rem; margin:4rem 0; }
+    .feature { background:#fff; padding:1.5rem; border-radius:8px; box-shadow:0 4px 12px rgba(0,0,0,0.05); text-align:center; }
+    .feature h3 { margin-bottom:0.75rem; font-size:1.25rem; }
+    .feature p { font-size:1rem; color:#555; }
+    .cta { text-align:center; margin:3rem 0; }
+    .cta a { background:var(--primary); color:#fff; padding:1rem 2rem; border-radius:4px; font-size:1.125rem; font-weight:600; text-decoration:none; transition:filter .2s; }
+    .cta a:hover { filter:brightness(0.9); }
+    footer { text-align:center; padding:2rem 0; font-size:0.875rem; color:#777; }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="spamurai_og.png" alt="Spamurai Logo">
+  </header>
+  <main class="container">
+    <section class="hero">
+      <h1>Stop Phishing & Scam Emails Instantly</h1>
+      <p>Forward any suspicious email to <strong>mr.spamurai@gmail.com</strong>. Our AI analyzes it in minutes—no setup, no fees.</p>
+      <form class="form-inline" action="mailto:mr.spamurai@gmail.com" method="GET">
+        <input type="email" placeholder="Your email address" required>
+        <button type="submit">Get Early Access</button>
+      </form>
+    </section>
+
+    <section class="features">
+      <div class="feature">
+        <h3>⚡ Lightning-Fast</h3>
+        <p>AI-driven scanning returns results in under 2 minutes.</p>
+      </div>
+      <div class="feature">
+        <h3>✅ High Accuracy</h3>
+        <p>State-of-the-art models trained on millions of phishing examples.</p>
+      </div>
+      <div class="feature">
+        <h3>🔒 Simple & Secure</h3>
+        <p>No apps to install—just forward. We handle data with end-to-end encryption.</p>
+      </div>
+    </section>
+
+    <div class="cta">
+      <a href="#hero">Join the Beta - It's Free</a>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2025 Spamurai. All rights reserved.
+  </footer>
+</body>
+</html>
